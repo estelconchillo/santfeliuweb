@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Tourism Promotion Web Page project
+> - **Author:** Estel Conchillo Castillo
+> - **Group:** P-Inf 2 (GEINF)
+> - **Project:** Sant Feliu de Guíxols Tourism Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Project Structure
+The website has been built using React and is divided into different pages that are connected through React Router. 
 
-## Available Scripts
+## PAGES:
+> - **Home:** This is the main page. When you open the website, this is the first thing that you see. It has a big hero image of Sant Feliu, some introductory text about the city, an audio file that promotes the location, and a small photo gallery showing different spots around the town.
 
-In the project directory, you can run:
+> - **Information:** This page shows the top 6 things you shouldn’t miss in Sant Feliu de Guíxols. Each activity has a card with an image, a short description, and  a “+INFO” button. When you click this button, it takes you to a new page with more details about that specific place, including a Google Maps location and a link to the official website.
 
-### `npm start`
+> - **Activities:** Here users can see all the available activities they can book. It works like a shopping cart: you can add activities, see how many you have selected, check the total price, and remove items if you change your mind.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> - **Events:** This page displays upcoming events happening in Sant Feliu, like festivals or cultural activities. Each event has a card with an image, the date, a description, and a button that opens an external link with more information.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+> - **Contact:** This page has all the contact information for the tourism office (address, email, phone number), and there’s also a form where users can send questions or requests directly.
 
-### `npm test`
+# General Layout:
+All pages share the same structure:
+> - **Header:** Navigation bar at the top with links to all the pages (Home, Information, Activities, Events, Contact).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> - **Main Content:** Changes depending on which page you’re on.
 
-### `npm run build`
+> - **Footer:** Simple footer with copyright info.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Implemented Features and Multimedia Elements
+I’ve added three different types of multimedia to the website:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> - **Audio file:** There’s a promotional audio on the Home page that introduces Sant Feliu de Guíxols. It includes ambient sounds you might hear in the city and a voice over explaining what makes the location special and what kind of tourists would enjoy it. The audio player is styled to fit with the rest of the page and sits in its own highlighted section.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> - **Edited Image:** The main hero image (platja.png) was created and edited in GIMP. I took a photo of the beach and enhanced the colors to make the Mediterranean blue look more vibrant and eye-catching. This image is the first thing visitors see when they land on the website.
 
-### `npm run eject`
+> - **Video:** I created a promotional video using Blender. It’s basically an animated ad for the city showing different views and attractions with smooth camera movements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Development process
+What I used to develop the webpage was:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> - **React.js:** to build the website with reusable components.
+> - **React Router:** To handle navigation between different pages.
+> - **CSS:** For the styling, animations, and making it responsive.
+> - **JSON files:** To store the data about activities and events so I can easily update them.
+> - **GIMP:** To edit images.
+> - **Blender:** To create the animated video.
+> - **Audacity:** To create the promotional audio file.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## HOW I BUILT IT:
+> - **Planning:** First, I figured out what pages I needed and what features each one should have.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> - **Creating Components:** I built reusable React components like Header, Footer, InfoCard, ProductCard, EventCard, and Cart so I wouldn’t have to write the same code over and over.
 
-## Learn More
+> - **Organizing Data:** I created JSON files with all the information about activities and events. This way, if I need to change something later, I just edit the JSON file instead of going through all the code.
+ 
+> - **Styling:** I picked a color scheme and fonts that reflect the summer vibe, since Sant Feliu de Guíxols is primarily a summer tourist destination. The colors include warm yellows, soft pinks and vibrant purples. Then I wrote  CSS to make everything look attractive and consistent. I added animations and hover effects to make it more dynamic.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+> - **Adding Multimedia:** I embedded the audio player, the edited images and the video in the right places.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+> - **Responsive design:** I made all the pages responsive so they look good and work properly on desktops, tablets and mobile phones.
 
-### Code Splitting
+> - **Optimization:** I made sure images and multimedia files weren’t too big so the website loads quickly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Run the website
+### WHAT YOU NEED:
+**Node.js** (version 14 or newer) installed on your computer.
 
-### Analyzing the Bundle Size
+npm (comes automatically with Node.js).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## HOW TO RUN IT:
+### Get the Project Files:
+If you have Git: git clone [repository-url]
 
-### Making a Progressive Web App
+Or just download the ZIP file and extract it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Open Terminal/Command Prompt and Go to the Project Folder:
+cd santfeliuweb
 
-### Advanced Configuration
+### Install Everything the Project Needs:
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Start the Website:
+npm start
 
-### Deployment
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
