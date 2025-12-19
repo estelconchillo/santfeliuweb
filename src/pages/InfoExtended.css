@@ -1,0 +1,119 @@
+.container{
+    max-width: 1200px;
+    padding: 2rem;
+}
+
+.container h1{
+    font-family:'Caudex', serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #912F56;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.information {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 2;
+    margin-right: 15px;
+}
+
+.container .information img{
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.container .information button{
+    font-family: 'Poppins', sans-serif;
+    background-color: #655A7C;
+    color: #EDFFAB;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(248, 118, 102, 0.3);
+}
+
+.container .information button:hover{
+    font-weight: bold;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(248, 118, 102, 0.4);
+}
+
+.containter .information .mapSection{
+    margin: 2rem 0;
+}
+
+.container .information .mapSection h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #655A7C;
+    font-weight: bold;
+    margin-left: 2px;
+    margin-bottom: 10px;
+}
+
+.container .information .mapSection iframe{
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    
+    .container h1 {
+        font-size: 32px;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .information {
+        padding: 1.5rem;
+    }
+    
+    .container p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+    .container .information img {
+        height: 250px;
+    }
+    
+    .container .information .mapSection h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container h1 {
+        font-size: 26px;
+    }
+    
+    .container .information img {
+        height: 200px;
+    }
+}

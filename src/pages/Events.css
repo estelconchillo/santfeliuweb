@@ -1,0 +1,47 @@
+.events{
+    max-width: 1200px;
+    margin: 0;
+    padding: 2rem;
+}
+
+.events h1{
+    font-family: 'Lato', sans-serif;
+    color: #655A7C;
+    font-size: 43px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.events p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.events .EventCard{
+    gap: 2.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .events {
+        padding: 1.5rem 1rem;
+    }
+    
+    .events h1 {
+        font-size: 32px;
+    }
+    
+    .events p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .events h1 {
+        font-size: 26px;
+    }
+}

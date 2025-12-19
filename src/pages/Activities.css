@@ -1,0 +1,51 @@
+.Activities{
+    padding: 2rem;
+}
+
+.main-layout{
+    display: flex;
+    gap: 2rem;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.product-section{
+    flex: 4;
+    min-width: 0;
+    width: 1000px;
+}
+
+.cart-section{
+    flex: 1;
+    position: sticky;
+    top: 2rem;
+    height: fit-content;
+    width: 350px;
+    flex-shrink: 0; 
+    margin-top: 195px;
+
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+    .main-layout {
+        flex-direction: column;
+    }
+    
+    .cart-section {
+        position: static;
+        width: 100%;
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Activities {
+        padding: 1rem;
+    }
+    
+    .main-layout {
+        gap: 1.5rem;
+    }
+}

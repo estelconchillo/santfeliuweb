@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "title": "Lighting of Lights",
+    "description": "The lighting of the lights tomorrow, Friday 28 November, will mark the beginning of the Sant Feliu de Guíxols Christmas. It will start in Plaza Salvador Espriu from 5 pm, where there will be children's entertainment with Suret and also the traditional popular chocolate bar.",
+    "date": "Friday 28th November",
+    "image": "/images/llumsNadal.jpg",
+    "alt": "Christmas Lights of Sant Feliu de Guíxols",
+    "web": "https://www.tvcostabrava.com/joan-parareda/cultura/festes-populars/sant-feliu-de-guixols-encendra-les-llums-de-nadal-el-28-de-novembre" 
+  },
+
+  {
+    "id": 2,
+    "title": "Christmas Fair",
+    "description": "Stalls selling handmade and Christmas products on La Rambla. Christmas workshops at the fair stands: stars, figures, Christmas balls, jewellery, confectionery, cups, tree pendants, bracelets, etc. You will also find characters from the Pastorets de Sant Feliu around the fair. What will they want to tell us?",
+    "date": "Saturday 6 and Sunday 7 from 10.30 to 14.00 and from 16.00 to 20.00 Monday 8 from 10.30 to 14.00 h",
+    "image": "/images/firaNadal.jpg",
+    "alt": "Christmas Fair of Sant Feliu de Guíxols",
+    "web": "https://surtdecasa.cat/emporda/agenda/2025/fira-de-nadal-de-sant-feliu-de-guixols/255329" 
+  },
+
+  {
+    "id": 3,
+    "title": "Ganxó Park and Arrival of the Kings",
+    "description": "During the Christmas days, a Play Park is organized for boys and girls aged 1 to 14, with various activities: toy library, inflatables, craft workshops, make-up workshop, sports, juggling, wii, zorball circuit, etc. Before the arrival of Their Majesties the Magi of the East, the Royal Mailers are in charge of overseeing that Sant Feliu de Guíxols is ready to welcome the entire entourage. The arrival is by sea and the hanxons and hanxones welcome them with a castle of fireworks and on arrival at the Monastery there is a great visual show.",
+    "date": "December-January",
+    "image": "/images/reis.jpg",
+    "alt": "Cabalgata of Sant Feliu de Guíxols",
+    "web": "https://www.visitguixols.com/ca/agenda/esdeveniments/249-parc-ganxo-i-l-arribada-dels-reis.html" 
+  },
+
+  {
+    "id": 4,
+    "title": "Carnival",
+    "description": "One of the most relevant on the Costa Brava, where many local gangs and from all over the province and territory participate. Great Carnival tradition with activities for children and adults. The events of the Ganxó Carnival begin with the massive gang dinner. The next day, the Excarnestoltes come out with 'La Bomba' (a historical element of the carnival) to make the transition to the new King Carnestoltes. Gras Thursday marks the official opening of the Carnival weekend. With party for the little ones and official presentation of the Carnival in the evening. Friday is the turn of the great Rua de carrosses and troupes; from 6 p.m. some 63 gangs parade with more than 3,500 participants. The revelry continues on Sunday with the morning parade through the promenade and it all ends with the Burial of the Sardine on Ash Wednesday.",
+    "date": "February",
+    "image": "/images/carnival.jpg",
+    "alt": "Carnival of Sant Feliu de Guíxols",
+    "web": "https://guixols.cat/carnaval"
+  }
+]

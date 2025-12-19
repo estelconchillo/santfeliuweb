@@ -1,0 +1,133 @@
+.upcomingEvent{
+    background-color: #F1E4E8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.upcomingEvent:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.infoEvent {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+}
+
+.upcomingEvent .infoEvent img{
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin: 1rem 0;
+}
+
+
+.upcomingEvent h3{
+    font-family: 'Caudex', serif;
+    color: #912F56;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 0;
+}
+
+.upcomingEvent button{
+    font-family: 'Poppins', sans-serif;
+    background-color: #655A7C;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+}
+
+.upcomingEvent button:hover{
+    background-color: #EDD83D;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(248, 118, 102, 0.4);
+}
+
+.eventDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-width: 0;
+}
+
+.eventDetails p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 2;
+    margin-right: 15px;
+    width: 800px;
+}
+
+.eventDate{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.8rem;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.eventDate p{
+    color: #655A7C;
+    font-weight: 300;
+    text-align: left;
+}
+
+.eventDate h4{
+    font-family: 'Poppins', sans-serif;
+    color: #912F56;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 0 0.3rem 0;
+}
+
+.eventDate p {
+    font-family: 'Poppins', sans-serif;
+    color: #912F56;
+    font-size: 15px;
+    margin: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .infoEvent {
+        flex-direction: column;
+    }
+    
+    .upcomingEvent .infoEvent img {
+        width: 100%;
+        height: 200px;
+    }
+    
+    .upcomingEvent h3 {
+        font-size: 20px;
+    }
+    
+    .eventDetails p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    
+    .upcomingEvent button {
+        width: 100%;
+    }
+}

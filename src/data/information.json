@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "title": "Monasterium",
+    "description": "The Monastery of Sant Feliu de Guíxols is one of the town’s most iconic heritage sites, with origins dating back over a thousand years. This impressive Benedictine complex features a mix of architectural styles, from Romanesque to Baroque, reflecting its long and rich history. Visitors can explore the fortified Porta Ferrada, the old cloisters, and the museum areas, discovering the cultural and spiritual importance the monastery has had throughout the centuries. Its central location and historical significance make it a must-see landmark for anyone visiting the town.",
+    "image": "/images/monestir.jpeg",
+    "alt": "Monasterium of Sant Feliu de Guíxols",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.9938563771084!2d3.0267086000000005!3d41.7802162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb0697e4e4ef79%3A0x4768fc07d6e54010!2sMonestir%20de%20Sant%20Feliu%20de%20Gu%C3%ADxols!5e1!3m2!1sca!2ses!4v1764084666835!5m2!1sca!2ses",
+    "web": "https://museu.guixols.cat/monestir.php" 
+  },
+  {
+    "id": 2,
+    "title": "Via Ferrata",
+    "description": "Sant Feliu de Guíxols is home to one of the most spectacular coastal via ferratas in Europe: the Via Ferrata de la Cala del Molí. This route is unique because it runs directly above the sea, offering breathtaking views of cliffs, turquoise waters, and the rugged Costa Brava coastline. Suitable for both beginners and experienced adventurers, the route is equipped with cables, iron steps, and bridges that make it safe and exciting. It is an unforgettable outdoor activity for those seeking adrenaline in a stunning natural setting.",
+    "image": "/images/viaFerrata.jpg",
+    "alt": "Via Ferrata of Sant Feliu de Guíxols",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6826.097141004829!2d3.0393090763577693!3d41.77918817160094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb06c1c8a01f75%3A0x333e8b85e0cb62fc!2sVia%20Ferrata%20Cala%20del%20Mol%C3%AD!5e1!3m2!1sca!2ses!4v1764084773253!5m2!1sca!2ses",
+    "web": "https://www.viaferratalacaladelmoli.com/" 
+  },
+
+  {
+    "id": 3,
+    "title": "Nautical Activities",
+    "description": "The calm waters of Sant Feliu de Guíxols are perfect for enjoying a wide range of nautical activities. Kayaking allows visitors to explore hidden coves, sea caves, and the dramatic rocky coastline at their own pace. Paddle surfing (SUP) is also a popular option for those who want a relaxing yet active experience on the water. Local schools and rental centers offer equipment and guided tours, making these activities accessible to families, beginners, and experienced enthusiasts alike. It’s an excellent way to immerse yourself in the beauty of the Mediterranean Sea.",
+    "image": "/images/kayak.jpg",
+    "alt": "Nautical Activities of Sant Feliu de Guíxols",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3413.067416294062!2d3.0356544763577866!3d41.77883407162305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb06eae9c761d3%3A0x2d0766a855b1b86c!2sClub%20N%C3%A0utic%20Sant%20Feliu%20de%20Gu%C3%ADxols!5e1!3m2!1sca!2ses!4v1764084836393!5m2!1sca!2ses",
+    "web": "https://cnsfg.cat/"
+  },
+
+  {
+    "id": 4,
+    "title": "Hiking",
+    "description": "The Camí de Ronda is one of the most scenic coastal hiking routes in Catalonia, and Sant Feliu de Guíxols is the perfect starting point. This historic path follows the coastline, offering stunning views of cliffs, crystal-clear waters, and lush Mediterranean vegetation. Along the route, hikers can discover secluded beaches, lookout points, and charming landscapes unique to the Costa Brava. The trail includes sections suitable for all levels, making it an ideal outdoor activity for nature lovers, families, and photography enthusiasts.",
+    "image": "/images/senderisme.jpg",
+    "alt": "Hiking on the Camí de Ronda",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8117.726102372415!2d3.0362181770881316!3d41.778533939051286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb07006476686f%3A0x42813491355ede9b!2sCam%C3%AD%20de%20Ronda%20de%20S%E2%80%99Agar%C3%B3%20a%20Sant%20Feliu%20de%20Gu%C3%ADxols%20(GR%2092)!5e1!3m2!1sca!2ses!4v1764084891977!5m2!1sca!2ses",
+    "web": "https://ca.wikiloc.com/rutes-senderisme/cami-de-ronda-sagaro-sant-feliu-de-guixols-36932"
+  },
+
+  {
+    "id": 5,
+    "title": "Porta Ferrada Festival",
+    "description": "The Porta Ferrada Festival is the oldest performing arts festival in Catalonia and one of the most significant summer cultural events on the Costa Brava. Held in Sant Feliu de Guíxols, it features a diverse program of music, theatre, and dance, attracting renowned international and national artists. The festival is celebrated in iconic venues such as the Monastery and outdoor spaces by the sea, creating a magical atmosphere. It is a must-visit event for culture lovers and a highlight of the town’s summer season.",
+    "image": "/images/portaFerrada.jpg",
+    "alt": "Porta Ferrada Festival",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3412.2315391765637!2d3.01733058899124!3d41.79453729652588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb07d8fab1034b%3A0x20e96ee8edb28f72!2sFestival%20Porta%20Ferrada!5e1!3m2!1sca!2ses!4v1764084931337!5m2!1sca!2ses",
+    "web": "https://www.portaferrada.cat/ca/" 
+  },
+
+  {
+    "id": 6,
+    "title": "Cycling",
+    "description": "The Ruta del Carrilet is a cycling path that follows the old railway line connecting Sant Feliu de Guíxols with Girona. This easy, family-friendly route runs through natural landscapes, forests, and small villages, offering a peaceful and scenic experience. The well-maintained bike path is perfect for cyclists of all ages, whether you want a short ride or a full-day excursion to Girona. Renting a bicycle in Sant Feliu is simple, making this one of the most accessible and enjoyable outdoor activities in the area.",
+    "image": "/images/bici.jpg",
+    "alt": "Cycling in Sant Feliu de Guíxols",
+    "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d853.1678007917567!2d3.034725695674359!3d41.78627813910374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bb070070098731%3A0x7ef175da1dd68db1!2sCarril%20bici%20sant%20feliu%20pda!5e1!3m2!1sca!2ses!4v1764085092726!5m2!1sca!2ses",
+    "web": "https://www.viesverdes.cat/rutes_vies_verdes/ruta-del-carrilet-tram-2/" 
+  }
+]

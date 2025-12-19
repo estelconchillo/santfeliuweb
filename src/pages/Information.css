@@ -1,0 +1,47 @@
+.information{
+    max-width: 1200px;
+    margin: 0;
+    padding: 2rem;
+}
+
+.information h1{
+    font-family: 'Lato', sans-serif;
+    color: #655A7C;
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.information p{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.information .individualInfo{
+    gap: 2.5rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .information {
+        padding: 1.5rem 1rem;
+    }
+    
+    .information h1 {
+        font-size: 32px;
+    }
+    
+    .information p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .information h1 {
+        font-size: 26px;
+    }
+}
