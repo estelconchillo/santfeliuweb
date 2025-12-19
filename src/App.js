@@ -16,7 +16,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename="/santfeliuweb">
+    <Router>
       <Header />
       <main className="main-layout">
         <Routes>
