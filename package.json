@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   {
-    "homepage": "https://estelconchillo.github.io/santfeliu-tourism-web",
+    "homepage": "https://estelconchillo.github.io/santfeliuweb",
     "scripts": {
       "predeploy": "npm run build",
       "deploy": "gh-pages -d build",
