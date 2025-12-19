@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/santfeliuweb/static/css/main.445b3a60.css",
+    "main.js": "/santfeliuweb/static/js/main.9a50f707.js",
+    "index.html": "/santfeliuweb/index.html",
+    "main.445b3a60.css.map": "/santfeliuweb/static/css/main.445b3a60.css.map",
+    "main.9a50f707.js.map": "/santfeliuweb/static/js/main.9a50f707.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.445b3a60.css",
+    "static/js/main.9a50f707.js"
+  ]
+}
