@@ -21,7 +21,7 @@ function InfoExtended(){
                     <div className="mapSection">
                         <h3>Location</h3>
                         <iframe
-                            src={process.env.PUBLIC_URL + item.location}
+                            src={item.location}
                             width="100%"
                             height="300"
                             allowFullScreen=""
