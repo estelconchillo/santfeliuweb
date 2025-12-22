@@ -4,7 +4,7 @@
         "name": "Route along the Camí de Ronda",
         "price": 5,
         "description": "Guided excursion with beautiful landscapes.",
-        "image": "/images/camiRonda.jpg"
+        "image": "/camiRonda.jpg"
     },
 
     {
@@ -12,7 +12,7 @@
         "name": "Visit to the Monasterium",
         "price": 10,
         "description": "Cultural visit to the Sant Feliu de Guíxols Monasterium.",
-        "image": "/images/monestir.jpeg"
+        "image": "/monestir.jpeg"
     },
 
     {
@@ -20,7 +20,7 @@
         "name": "Kayak excursion",
         "price": 20,
         "description": "Ideal activity for visiting different creeks.",
-        "image": "/images/kayak.jpg"
+        "image": "/kayak.jpg"
     },
 
     {
@@ -28,7 +28,7 @@
         "name": "Parc Aventura",
         "price": 25,
         "description": "Ideal activity for kids and adults that love zip lines.",
-        "image": "/images/parcAventura.jpeg"
+        "image": "/parcAventura.jpeg"
     },
 
     {
@@ -36,7 +36,7 @@
         "name": "Via Ferrata",
         "price": 50,
         "description": "Guided excursion with beautiful landscapes through the mowed rocks.",
-        "image": "/images/viaFerrata.jpg"
+        "image": "/viaFerrata.jpg"
     },
 
     {
@@ -44,6 +44,6 @@
         "name": "Scuba diving",
         "price": 90,
         "description": "Baptism of submarinism in the Costa Brava.",
-        "image": "/images/submarinisme.jpg"
+        "image": "/submarinisme.jpg"
     }
 ]

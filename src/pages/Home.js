@@ -4,7 +4,7 @@ function Home(){
         <div className='Home'>
             <h1>Welcome to Sant Feliu de Guíxols!</h1>
             <div className='mainImage'>
-                <img src={process.env.PUBLIC_URL + '/images/platja.png'} alt="Main image"></img>
+                <img src={process.env.PUBLIC_URL + '/platja.png'} alt="Main image"></img>
             </div>
 
             <div className='introduction'>
@@ -33,14 +33,14 @@ function Home(){
             <h2>Know more about Sant Feliu</h2>
             <div className='audioSection'>
                 <h3>Listen to Sant Feliu</h3>
-                <audio src={process.env.PUBLIC_URL + '/audio/finalAudio.mp3'} controls></audio>
+                <audio src={process.env.PUBLIC_URL + '/finalAudio.mp3'} controls></audio>
             </div>
 
             <h2>Live Sant Feliu de Guíxols</h2>
             <div className='Photos'>
-                <img src={process.env.PUBLIC_URL + '/images/ronda.jpg'} alt="Camí de Ronda"></img>
-                <img src={process.env.PUBLIC_URL + '/images/monasterium.png'} alt="Monasterium"></img>
-                <img src={process.env.PUBLIC_URL + '/images/portNit.jpg'} alt="Port of Sant Feliu de guíxols"></img>
+                <img src={process.env.PUBLIC_URL + '/ronda.jpg'} alt="Camí de Ronda"></img>
+                <img src={process.env.PUBLIC_URL + '/monasterium.png'} alt="Monasterium"></img>
+                <img src={process.env.PUBLIC_URL + '/portNit.jpg'} alt="Port of Sant Feliu de guíxols"></img>
             </div>
 
         </div>
