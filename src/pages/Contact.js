@@ -13,7 +13,7 @@ function Contact(){
                         seeking authentic experiences. Our <b>Tourist Office </b> is here to help you discover all the hidden treasures 
                         and unforgettable activities our town has to offer.</p>
 
-                    <img src={process.env.PUBLIC_URL + 'images/office.jpg'} alt="Tourism office"></img>
+                    <img src={process.env.PUBLIC_URL + './images/office.jpg'} alt="Tourism office"></img>
                 </div>
 
                 <div className='AdressPhoneNumber'>
