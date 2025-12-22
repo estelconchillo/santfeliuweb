@@ -15,13 +15,13 @@ function InfoExtended(){
         <div className="container">
             <h1>{item.id}. {item.title}</h1>
             <div className="information">
-                <img src={item.image} alt={item.alt}/>
+                <img src={process.env.PUBLIC_URL + item.image} alt={item.alt}/>
                 <p>{item.description}</p>
                 {item.location && (
                     <div className="mapSection">
                         <h3>Location</h3>
                         <iframe
-                            src={item.location}
+                            src={process.env.PUBLIC_URL + item.location}
                             width="100%"
                             height="300"
                             allowFullScreen=""

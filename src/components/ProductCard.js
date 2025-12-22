@@ -7,7 +7,7 @@ function ProductCard({ product, onAdd }) {
       <h3>{product.name}</h3>
       <p className='price'>{product.price} €</p>
       <p>{product.description}</p>
-      <img src={product.image} alt={product.name} /> 
+      <img src={process.env.PUBLIC_URL + product.image} alt={product.name} /> 
       <button onClick={() => onAdd(product)}>Add to the Cart</button>
     </div>
   );

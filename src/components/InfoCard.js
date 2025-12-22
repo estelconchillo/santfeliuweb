@@ -7,7 +7,7 @@ function InfoCard({item}){
         <div className="imprescindibleThing">
             <h3>{item.id}. {item.title}</h3>
             <div className='infoContent'>
-                <img src={item.image} alt={item.alt} />
+                <img src={process.env.PUBLIC_URL + item.image} alt={item.alt} />
                 <p>{item.description}</p>
             </div>
             <Link to={`/information/${item.id}`}>
