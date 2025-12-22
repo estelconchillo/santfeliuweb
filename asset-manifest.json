@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/santfeliuweb/static/css/main.445b3a60.css",
-    "main.js": "/santfeliuweb/static/js/main.d8021bda.js",
+    "main.js": "/santfeliuweb/static/js/main.2ac13cfc.js",
     "index.html": "/santfeliuweb/index.html",
     "main.445b3a60.css.map": "/santfeliuweb/static/css/main.445b3a60.css.map",
-    "main.d8021bda.js.map": "/santfeliuweb/static/js/main.d8021bda.js.map"
+    "main.2ac13cfc.js.map": "/santfeliuweb/static/js/main.2ac13cfc.js.map"
   },
   "entrypoints": [
     "static/css/main.445b3a60.css",
-    "static/js/main.d8021bda.js"
+    "static/js/main.2ac13cfc.js"
   ]
 }
