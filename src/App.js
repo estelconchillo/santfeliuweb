@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 
 import Home from './pages/Home'; 
 import Information from './pages/Information'; 
-import Activites from './pages/Activities'; 
+import Activities from './pages/Activities'; 
 import InfoExtended from './pages/InfoExtended';
 import Contact from "./pages/Contact";
 import Events from "./pages/Events";
@@ -21,10 +21,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Information" element={<Information />} />
-          <Route path="/Activities" element={<Activites />} />
+          <Route path="/Activities" element={<Activities />} />
           <Route path="/information/:id" element={<InfoExtended />} /> 
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Events" element={<Events />} />
+          <Route path="*" element={<Home />} />
         </Routes>
       </main>
       <Footer />
